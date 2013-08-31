@@ -1,0 +1,178 @@
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .fcontainer_12, .fcontainer_16                    { width: 92%;}
+        /*1*/
+        .fcontainer_12 .grid_11, .fcontainer_12 .grid_12,
+        .fcontainer_16 .grid_16,.fcontainer_16 .grid_15   { width: 98%; }        
+        /*1/2*/
+        .fcontainer_12 .grid_5,.fcontainer_12 .grid_6,
+        .fcontainer_16 .grid_7,.fcontainer_16 .grid_8     { width: 48%; }
+
+/*-------------FIXED 12-------------*/
+        .fcontainer_12 .grid_1,.fcontainer_12 .grid_2     { width: 14.666%; }
+        .fcontainer_12 .grid_3, .fcontainer_12 .grid_4    { width: 31.333%; }
+        .fcontainer_12 .grid_7, .fcontainer_12 .grid_8    { width: 64.666%; }
+        .fcontainer_12 .grid_9, .fcontainer_12 .grid_10   { width: 81.333%; }
+        
+/*-------------FIXED 16-------------*/
+        .fcontainer_16 .grid_1,.fcontainer_16 .grid_2     { width: 10.5%; }
+        .fcontainer_16 .grid_3, .fcontainer_16 .grid_4    { width: 23%; }
+        .fcontainer_16 .grid_5,.fcontainer_16 .grid_6     { width: 35.5%; }
+        .fcontainer_16 .grid_9,.fcontainer_16 .grid_10    { width: 60.5%; }
+        .fcontainer_16 .grid_11,.fcontainer_16 .grid_12   { width: 73%; }
+        .fcontainer_16 .grid_13,.fcontainer_16 .grid_14   { width: 85.5%; }       
+        
+/* =Prefix Extra Space >> Global
+--------------------------------------------------------------------------------*/
+    .fcontainer_12 .prefix_5,.fcontainer_12 .prefix_6,
+    .fcontainer_16 .prefix_7,.fcontainer_16 .prefix_8{margin-left: 48%;}                
+/* =Prefix Extra Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+.fcontainer_12 .prefix_1,.fcontainer_12 .prefix_2{margin-left: 14.666%;}
+.fcontainer_12 .prefix_3,.fcontainer_12 .prefix_4{margin-left: 31.333%;}
+.fcontainer_12 .prefix_7,.fcontainer_12 .prefix_8{margin-left: 64.666%;}
+.fcontainer_12 .prefix_9,.fcontainer_12 .prefix_10,.fcontainer_12 .prefix_11{margin-left: 81.333%;}
+
+/* =Prefix Extra Space >> 16 Columns
+--------------------------------------------------------------------------------*/
+.fcontainer_16 .prefix_1,.fcontainer_16 .prefix_2     {margin-left: 10.5%;}
+.fcontainer_16 .prefix_3,.fcontainer_16 .prefix_4      {margin-left: 23% ;}
+.fcontainer_16 .prefix_5,.fcontainer_16 .prefix_6     {margin-left: 35.5%;}
+.fcontainer_16 .prefix_9,.fcontainer_16 .prefix_10    {margin-left: 60.5%;}
+.fcontainer_16 .prefix_11,.fcontainer_16 .prefix_12   {margin-left: 73%;}
+.fcontainer_16 .prefix_13,.fcontainer_16 .prefix_14,.fcontainer_16 .prefix_15   {margin-left: 85.5%;}
+
+    }
+    
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+
+    @media only screen and (max-width: 767px) {
+        .grid_1,
+        .grid_2,
+        .grid_3,
+        .grid_4,
+        .grid_5,
+        .grid_6,
+        .grid_7,
+        .grid_8,
+        .grid_9,
+        .grid_10,
+        .grid_11,
+        .grid_12,
+        .grid_13,
+        .grid_14,
+        .grid_15,
+        .grid_16
+        {
+                display: inline;
+                float: left;
+                margin-left: 10px;
+                margin-right: 10px;
+        }
+         .fcontainer_12, .fcontainer_16                    { width: 320px; margin-left: auto; margin-right: auto; }
+         /*1*/
+        .fcontainer_12 .grid_11, .fcontainer_12 .grid_12,
+        .fcontainer_16 .grid_16,.fcontainer_16 .grid_15,
+        .fcontainer_12 .grid_5,.fcontainer_12 .grid_6,
+        .fcontainer_16 .grid_7,.fcontainer_16 .grid_8,
+        .fcontainer_12 .grid_1,.fcontainer_12 .grid_2,
+        .fcontainer_12 .grid_3, .fcontainer_12 .grid_4,
+        .fcontainer_12 .grid_7, .fcontainer_12 .grid_8,
+        .fcontainer_12 .grid_9, .fcontainer_12 .grid_10,
+        .fcontainer_16 .grid_1,.fcontainer_16 .grid_2,
+        .fcontainer_16 .grid_3, .fcontainer_16 .grid_4,
+        .fcontainer_16 .grid_5,.fcontainer_16 .grid_6,
+        .fcontainer_16 .grid_9,.fcontainer_16 .grid_10,
+        .fcontainer_16 .grid_11,.fcontainer_16 .grid_12,
+        .fcontainer_16 .grid_13,.fcontainer_16 .grid_14   { width: 300px; }
+        
+        /* =Prefix Extra Space >> Global
+--------------------------------------------------------------------------------*/
+    .fcontainer_12 .prefix_5,.fcontainer_12 .prefix_6,
+    .fcontainer_16 .prefix_7,.fcontainer_16 .prefix_8,
+    .fcontainer_12 .prefix_1,.fcontainer_12 .prefix_2,
+    .fcontainer_12 .prefix_3,.fcontainer_12 .prefix_4,
+    .fcontainer_12 .prefix_7,.fcontainer_12 .prefix_8,
+    .fcontainer_12 .prefix_9,.fcontainer_12 .prefix_10,.fcontainer_12 .prefix_11,
+    .fcontainer_16 .prefix_1,.fcontainer_16 .prefix_2,
+    .fcontainer_16 .prefix_3,.fcontainer_16 .prefix_4,
+    .fcontainer_16 .prefix_5,.fcontainer_16 .prefix_6,
+    .fcontainer_16 .prefix_9,.fcontainer_16 .prefix_10,
+    .fcontainer_16 .prefix_11,.fcontainer_16 .prefix_12,
+    .fcontainer_16 .prefix_13,.fcontainer_16 .prefix_14,.fcontainer_16 .prefix_15   {margin: 0 10px;}
+    .invicible_phone{
+        display: none;
+    }
+        
+    }
+
+    /* #Mobile (Landscape)
+================================================== */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .grid_1,
+        .grid_2,
+        .grid_3,
+        .grid_4,
+        .grid_5,
+        .grid_6,
+        .grid_7,
+        .grid_8,
+        .grid_9,
+        .grid_10,
+        .grid_11,
+        .grid_12,
+        .grid_13,
+        .grid_14,
+        .grid_15,
+        .grid_16
+        {
+                display: inline;
+                float: left;
+                margin-left: 10px;
+                margin-right: 10px;
+        }
+        .fcontainer_12, .fcontainer_16                    { 	margin-left: auto; margin-right: auto; width: 440px;}
+        .fcontainer_12 .grid_11, .fcontainer_12 .grid_12,
+        .fcontainer_16 .grid_16,.fcontainer_16 .grid_15,
+        .fcontainer_12 .grid_5,.fcontainer_12 .grid_6,
+        .fcontainer_16 .grid_7,.fcontainer_16 .grid_8,
+        .fcontainer_12 .grid_1,.fcontainer_12 .grid_2,
+        .fcontainer_12 .grid_3, .fcontainer_12 .grid_4,
+        .fcontainer_12 .grid_7, .fcontainer_12 .grid_8,
+        .fcontainer_12 .grid_9, .fcontainer_12 .grid_10,
+        .fcontainer_16 .grid_1,.fcontainer_16 .grid_2,
+        .fcontainer_16 .grid_3, .fcontainer_16 .grid_4,
+        .fcontainer_16 .grid_5,.fcontainer_16 .grid_6,
+        .fcontainer_16 .grid_9,.fcontainer_16 .grid_10,
+        .fcontainer_16 .grid_11,.fcontainer_16 .grid_12,
+        .fcontainer_16 .grid_13,.fcontainer_16 .grid_14   { width: 420px; margin: 0 10px; }
+        
+        /* =Prefix Extra Space >> Global
+--------------------------------------------------------------------------------*/
+    .fcontainer_12 .prefix_5,.fcontainer_12 .prefix_6,
+    .fcontainer_16 .prefix_7,.fcontainer_16 .prefix_8,
+    .fcontainer_12 .prefix_1,.fcontainer_12 .prefix_2,
+    .fcontainer_12 .prefix_3,.fcontainer_12 .prefix_4,
+    .fcontainer_12 .prefix_7,.fcontainer_12 .prefix_8,
+    .fcontainer_12 .prefix_9,.fcontainer_12 .prefix_10,.fcontainer_12 .prefix_11,
+    .fcontainer_16 .prefix_1,.fcontainer_16 .prefix_2,
+    .fcontainer_16 .prefix_3,.fcontainer_16 .prefix_4,
+    .fcontainer_16 .prefix_5,.fcontainer_16 .prefix_6,
+    .fcontainer_16 .prefix_9,.fcontainer_16 .prefix_10,
+    .fcontainer_16 .prefix_11,.fcontainer_16 .prefix_12,
+    .fcontainer_16 .prefix_13,.fcontainer_16 .prefix_14,.fcontainer_16 .prefix_15   {margin: 0 10px;}
+    
+    .invicible_phone{
+        display: none;
+    }
+    }

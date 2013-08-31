@@ -1,0 +1,47 @@
+@import url('fixed.css');
+@import url('fluid.css');
+@import url('fixedresponsive.css');
+@import url('fluidresponsive.css');
+@import url('typo.css');
+@import url('modulebasic.css');
+@import url('layout.css');
+@import url('responsivelayout.css');
+
+
+.showgrid .grid_1,
+.showgrid .grid_2,
+.showgrid .grid_3,
+.showgrid .grid_4,
+.showgrid .grid_5,
+.showgrid .grid_6,
+.showgrid .grid_7,
+.showgrid .grid_8,
+.showgrid .grid_9,
+.showgrid .grid_10,
+.showgrid .grid_11,
+.showgrid .grid_12,
+.showgrid .grid_13,
+.showgrid .grid_14,
+.showgrid .grid_15,
+.showgrid .grid_16{
+    background: #f2f2f2;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.bg {
+    background: #333;
+}
+
+.alignRight {
+    float: right;
+}
+
+.alignLeft {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
