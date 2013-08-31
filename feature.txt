@@ -1,0 +1,3 @@
+-fixed layout
+-fluid layout
+-Jquery ready
