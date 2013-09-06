@@ -3,7 +3,8 @@
 @import url('fixedresponsive.css');
 @import url('fluidresponsive.css');
 @import url('typo.css');
-@import url('modulebasic.css');
+@import url('module.css');
+@import url('theme.css');
 @import url('layout.css');
 @import url('responsivelayout.css');
 
