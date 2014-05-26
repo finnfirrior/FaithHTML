@@ -133,12 +133,12 @@ article.sticky .featured-post { border-top: 4px double #ededed; border-bottom: 4
 .entry-content, .entry-summary { line-height: 1.714285714; }
 
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-summary h1, .entry-summary h2, .entry-summary h3, .entry-summary h4, .entry-summary h5, .entry-summary h6, .comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6 { margin: 0 0 15px; line-height: 1.714285714; }
-.entry-content h1, .entry-summary h1, .comment-content h1 { font-size: 21px; font-size: 1.5rem; line-height: 1.5; }
-.entry-content h2, .entry-summary h2, .comment-content h2 { font-size: 18px; font-size: 1.285714286rem; line-height: 1.6; }
-.entry-content h3, .entry-summary h3, .comment-content h3 { font-size: 16px; font-size: 1.285714286rem; line-height: 1.6; }
-.entry-content h4, .entry-summary h4, .comment-content h4 { font-size: 14px; font-size: 1rem; line-height: 1.846153846; }
-.entry-content h5, .entry-summary h5, .comment-content h5 { font-size: 13px; font-size: 0.928571429rem; line-height: 1.846153846; }
-.entry-content h6, .entry-summary h6, .comment-content h6 { font-size: 12px; font-size: 0.857142857rem; line-height: 1.846153846; }
+.entry-content h1, .entry-summary h1, .comment-content h1 { font-size: 21px; line-height: 1.5; }
+.entry-content h2, .entry-summary h2, .comment-content h2 { font-size: 18px; line-height: 1.6; }
+.entry-content h3, .entry-summary h3, .comment-content h3 { font-size: 16px; line-height: 1.6; }
+.entry-content h4, .entry-summary h4, .comment-content h4 { font-size: 14px; line-height: 1.846153846; }
+.entry-content h5, .entry-summary h5, .comment-content h5 { font-size: 13px; line-height: 1.846153846; }
+.entry-content h6, .entry-summary h6, .comment-content h6 { font-size: 12px; line-height: 1.846153846; }
 .entry-content p, .entry-summary p, .comment-content p { margin: 0 0 10px; line-height: 1.714285714; }
 .entry-content a:visited, .entry-summary a:visited, .comment-content a:visited { color: #9f9f9f; }
 .entry-content ol, .entry-content ul, .entry-summary ol, .entry-summary ul, .comment-content ol, .comment-content ul { margin: 0 0 24px; line-height: 1.714285714; }
