@@ -10,6 +10,30 @@
 
 /* #Site Styles
 ================================================== */
+/*For Menus*/
+#access {
+	ul {
+            ul {
+                ul {}
+            }
+	}
+	li {}
+	a {
+	&:hover{}
+	}
+	ul ul a {}		
+	li:hover > a,
+	ul ul :hover > a,
+	a:focus {}
+	li:hover > a,
+	a:focus {
+	}
+	ul li:hover > ul {}
+	.current_page_item > a,
+	.current_page_ancestor > a {
+
+	}
+}
 
 /* #Page Styles
 ================================================== */
